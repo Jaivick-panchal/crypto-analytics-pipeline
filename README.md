@@ -89,10 +89,9 @@ python -m streamlit run dashboard.py
 
 ## Screenshots
 
-### Dashboard Overview
-![Dashboard 1](screenshots/d1.png)
-![Dashboard 2](screenshots/d2.png)
-![Dashboard 3](screenshots/d3.png)
-![Dashboard 4](screenshots/d4.png)
-![Dashboard 5](screenshots/d5.png)
+![Dashboard 1](d1.png)
+![Dashboard 2](d2.png)
+![Dashboard 3](d3.png)
+![Dashboard 4](d4.png)
+![Dashboard 5](d5.png)
 
