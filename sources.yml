@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: public
+    database: crypto_analytics
+    schema: public
+    tables:
+      - name: raw_crypto_prices
