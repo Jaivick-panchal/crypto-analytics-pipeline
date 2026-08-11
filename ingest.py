@@ -4,7 +4,7 @@ from sqlalchemy import create_engine
 from datetime import datetime
 from apscheduler.schedulers.blocking import BlockingScheduler
 
-engine = create_engine('postgresql://postgres:Jaivick%402204@localhost:5432/crypto_analytics')
+engine = create_engine('postgresql://postgres:Jaivick%402204@db.fctqiafgpjhytxsbrrwd.supabase.co:5432/postgres')
 
 def fetch_crypto_data():
     url = "https://api.coingecko.com/api/v3/coins/markets"
