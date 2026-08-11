@@ -3,7 +3,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 import plotly.express as px
 
-engine = create_engine('postgresql://postgres:Jaivick%402204@localhost:5432/crypto_analytics')
+engine = create_engine('postgresql://postgres:Jaivick%402204@db.fctqiafgpjhytxsbrrwd.supabase.co:5432/postgres')
 
 st.set_page_config(page_title="Crypto Analytics Dashboard", layout="wide", page_icon="📈")
 st.title("📈 Crypto Analytics Dashboard")
